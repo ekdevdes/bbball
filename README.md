@@ -27,6 +27,7 @@ Usage
 -----
  
  ```php
+ <?php
  // fetch page 2
  $dribbble->page = 2;
  
