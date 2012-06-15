@@ -11,7 +11,7 @@ Open terminal and paste the following:
 
 `git clone https://github.com/ekdevdes/bbball.git`
 
-Usage
+Setup
 -----
 
 ```php
@@ -21,6 +21,12 @@ Usage
  
  $dribbble = new BBBall;
  
+```
+ 
+Usage
+-----
+ 
+ ```php
  // fetch page 2
  $dribbble->page = 2;
  
@@ -128,3 +134,4 @@ A simple and powerful PHP Dribbble client
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+bbball 
