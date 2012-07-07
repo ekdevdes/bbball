@@ -81,7 +81,7 @@ After you've included the `bbball.php` file and create a new instance of it here
 	+ `$id` `int` the given shot's id
 	+ **Returns:  an array of the given shot's (specified by the `$id`) rebounds **
 + `get_shot_comments($id)`
-	+ ** Gets only a given shot's comments **
+	+ **Gets only a given shot's comments**
 	+ `$id` `int` the given shot's id
 	+ ** Returns: an array of the given shot's (specified by the `$id`) comments **
 	
