@@ -64,7 +64,7 @@ After you've included the `bbball.php` file and create a new instance of it here
 	+ ** Returns: an array of the parsed form of the resulting JSON **
 	
 +  `get_shots($list="everyone",$player_id=NULL)`
-	+ ** Gets shots from dribbble with optionally, a few filters **
+	+ **Gets shots from dribbble with optionally, a few filters**
 	+ `$list` `string` The list to fetch the shots from. Either "debuts","everyone","popular","following" or "likes" [Optional][Default: "everyone"]. For "following" or "likes" the `$player_id` must be not NULL 
 	+ `$player_id` `int` A given player's id. If not present then will it will be ignored. If present $list will be ignored. [Optional][Default: none]
 	<br>
@@ -77,7 +77,7 @@ After you've included the `bbball.php` file and create a new instance of it here
 	+ `$id` `int` or `string` The player's id [Required][Default: none]. $id can either be the users actual id or their username
 	+ ** Returns: an array of the parsed form of the resulting JSON**
 + `get_shot_rebounds($id)`
-	+ ** Gets only a given shot's rebounds **
+	+ **Gets only a given shot's rebounds**
 	+ `$id` `int` the given shot's id
 	+ **Returns:  an array of the given shot's (specified by the `$id`) rebounds **
 + `get_shot_comments($id)`
