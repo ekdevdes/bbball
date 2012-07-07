@@ -61,7 +61,7 @@ After you've included the `bbball.php` file and create a new instance of it here
 	+ `$id` `int` The shots id. [Required] [Default: none]
 	+ `$show_rebounds` `bool` If true will include the given shot's (the shot is specified by the $id param) rebounds [Optional][Default: false]
 	+ `$show_comments` `bool` If true will include the given shot's (the shot is specified by the $id param) comments [Optional][Default: false] 
-	+ ** Returns: an array of the parsed form of the resulting JSON **
+	+ **Returns: an array of the parsed form of the resulting JSON**
 	
 +  `get_shots($list="everyone",$player_id=NULL)`
 	+ **Gets shots from dribbble with optionally, a few filters**
@@ -71,19 +71,19 @@ After you've included the `bbball.php` file and create a new instance of it here
 	  NOTE: In order to specify the "following" or "likes" options the `$player_id` must not be NULL
 	  <br>
 	 NOTE: `$player_id` can either the players actual id or their userame without the '@' in the begining	 
-	 + ** Returns: an array of the parsed form of the resulting JSON **
+	 + **Returns: an array of the parsed form of the resulting JSON**
 + `get_player_info($id)`
 	+ **Get's a players info given a player id.**
 	+ `$id` `int` or `string` The player's id [Required][Default: none]. $id can either be the users actual id or their username
-	+ ** Returns: an array of the parsed form of the resulting JSON**
+	+ **Returns: an array of the parsed form of the resulting JSON**
 + `get_shot_rebounds($id)`
 	+ **Gets only a given shot's rebounds**
 	+ `$id` `int` the given shot's id
-	+ **Returns:  an array of the given shot's (specified by the `$id`) rebounds **
+	+ **Returns:  an array of the given shot's (specified by the `$id`) rebounds**
 + `get_shot_comments($id)`
 	+ **Gets only a given shot's comments**
 	+ `$id` `int` the given shot's id
-	+ ** Returns: an array of the given shot's (specified by the `$id`) comments **
+	+ **Returns: an array of the given shot's (specified by the `$id`) comments**
 	
 Bug Reporter & Feature Requests
 ------------
