@@ -216,6 +216,24 @@ class BBBall {
 		
 	}
 	
+	
+	/**
+	  * Returns a given players shots 
+	  * @access public
+	  * 
+	  * @param int $id the given players id
+	  * 
+	  * @return array the of the given player's (specified by $id) shots 
+	  * 
+	  */
+	public function get_player_shots($id){
+		if(is_null($id)){
+			throw new Exception("Can't get shots without aa shot id");
+		}else{
+			return objectToArray(json_decode($this->get_contents($this->api_base."/players/$id/shots?page=".$this->page."&per_page=".$this->per_page)));
+		}
+	}
+	
 	/**
 	  * Returns only a given shot's comments
 	  * @access public
