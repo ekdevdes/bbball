@@ -221,7 +221,7 @@ class BBBall {
 	  * Returns a given players shots 
 	  * @access public
 	  * 
-	  * @param int $id the given players id
+	  * @param int|string $id the given players id
 	  * 
 	  * @return array the of the given player's (specified by $id) shots 
 	  * 
