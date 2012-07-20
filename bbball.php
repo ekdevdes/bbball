@@ -9,9 +9,6 @@
   * @copyright Ethan Kramer 2012
   * @see http://github.com/ekdevdes/bbball
   * @link http://dribbble.com/api
-  *
-  * @todo Add paging support
-  * @todo Add per_page support
   * 
   */
 class BBBall {
