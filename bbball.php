@@ -4,7 +4,7 @@
   * bbball
   * A Simple, Yet Powerful Dribbble PHP Client
   *
-  * @author Ethan Kramer <ethankr@comcast.net>
+  * @author Ethan Kramer <contact@ethankr.com>
   * @package A Dribbble PHP Client
   * @copyright Ethan Kramer 2012
   * @see http://github.com/ekdevdes/bbball
