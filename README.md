@@ -84,7 +84,7 @@ After you've included the `bbball.php` file and create a new instance of it here
 	+ **Gets only a given shot's comments**
 	+ `$id` `int` the given shot's id
 	+ **Returns: an array of the given shot's (specified by the `$id`) comments**
-+ `get_player_shot($id)`
++ `get_player_shots($id)`
 	+ **Gets only a given players shots**
  	+ `$id` `int` or `string` the given players id or username without the '@' sign
   	+ **Returns: an array from the parsed JSON** 
