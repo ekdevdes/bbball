@@ -4,7 +4,7 @@
   * bbball
   * A Simple, Yet Powerful Dribbble PHP Client
   *
-  * @author Ethan Kramer <ethankr@comcast.net>
+  * @author Ethan Kramer <contact@ethankr.com>
   * @package A Dribbble PHP Client
   * @copyright Ethan Kramer 2012
   * @see http://github.com/ekdevdes/bbball
@@ -214,6 +214,24 @@ class BBBall {
 		  return objectToArray(json_decode($this->get_contents($this->api_base."/shots/$id/rebounds?page=".$this->page."&per_page=".$this->per_page)));
 		}
 		
+	}
+	
+	
+	/**
+	  * Returns a given players shots 
+	  * @access public
+	  * 
+	  * @param int $id the given players id
+	  * 
+	  * @return array the of the given player's (specified by $id) shots 
+	  * 
+	  */
+	public function get_player_shots($id){
+		if(is_null($id)){
+			throw new Exception("Can't get shots without aa shot id");
+		}else{
+			return objectToArray(json_decode($this->get_contents($this->api_base."/players/$id/shots?page=".$this->page."&per_page=".$this->per_page)));
+		}
 	}
 	
 	/**
