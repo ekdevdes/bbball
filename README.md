@@ -66,7 +66,7 @@ After you've included the `bbball.php` file and create a new instance of it here
 +  `get_shots($list="everyone",$player_id=NULL)`
 	+ **Gets shots from dribbble with optionally, a few filters**
 	+ `$list` `string` The list to fetch the shots from. Either "debuts","everyone","popular","following" or "likes" [Optional][Default: "everyone"]. For "following" or "likes" the `$player_id` must be not NULL 
-	+ `$player_id` `int` A given player's id. If not present then will it will be ignored. If present $list will be ignored. [Optional][Default: none]
+	+ `$player_id` `int` A given player's id. If not present then will it will be ignored. [Optional][Default: none]
 	<br>
 	  NOTE: In order to specify the "following" or "likes" options the `$player_id` must not be NULL
 	  <br>
