@@ -101,7 +101,7 @@ Thank you.
 Contributing
 ------------
 
-If you would like to contribute to Storage.js please do the following:
+If you would like to contribute to **bbball** please do the following:
 
 +	Fork this repo
 +	Make your changes
